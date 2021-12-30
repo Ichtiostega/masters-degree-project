@@ -1,4 +1,7 @@
 # Masters degree project
 
-# Bibliography
+## Bibliography
 1. Intro to stacked networks ([machinelearningmastery.com/...](https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/))
+
+## Notes
+1. Make some proofs of concept
