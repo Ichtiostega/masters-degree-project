@@ -23,3 +23,16 @@ ld.specshow(chromagram, x_axis='time', y_axis='chroma', hop_length=5, cmap='cool
 
 plt.subplots_adjust(top=0.94, left=0.04, right=0.98)
 plt.savefig('representations.png')
+
+x, sr = lr.load('IDMT_sample.ogg')
+
+chromagram = lr.feature.chroma_stft(x, sr=sr, hop_length=5)
+plt.title("Chromogram")
+ld.specshow(chromagram, x_axis='time', y_axis='chroma', hop_length=5, cmap='coolwarm')
+plt.show()
+
+X = lr.stft(x)
+Xdb = lr.amplitude_to_db(abs(X))
+plt.title("Spectrogram")
+ld.specshow(Xdb, sr=sr, x_axis='time', y_axis='hz')
+plt.show()

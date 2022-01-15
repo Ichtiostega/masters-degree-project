@@ -20,7 +20,7 @@ And many of these chords have a couple of variations. Add the fact that a chord 
 The program would get a sound file with a chord being played and return its name. Simple as that.
 
 # Data
-Here i list datasets that might be usefull in the project. The datasets are from reputable sources and seem to be well constructed. If somehow all of them faile there is still the option of making my own data.
+Here I list datasets that might be useful in the project. The datasets are from reputable sources and seem to be well constructed. If somehow all of them failed there is still the option of making my own data.
 ## [IDMT-SMT-Guitar](https://www.idmt.fraunhofer.de/en/publications/datasets/guitar.html)
 
 ## [IDMT-SMT-Chords](https://www.idmt.fraunhofer.de/en/publications/datasets/chords.html)
@@ -58,8 +58,8 @@ Coming up with additional ideas and concepts requires for me to be set on one of
 
 # Bibliography
 1. Intro to stacked networks ([machinelearningmastery.com/...](https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/))
-2. Chord recognition using Fourier transformation ([paper](https://onlinelibrary.wiley.com/doi/epdf/10.1002/tee.23492))
-3. Audio Data Analysis Using Deep Learning with Python ([https://www.kdnuggets.com/...](https://www.kdnuggets.com/2020/02/audio-data-analysis-deep-learning-python-part-1.html))
+2. Chord recognition using Fourier transformation ([Paper](https://onlinelibrary.wiley.com/doi/epdf/10.1002/tee.23492))
+3. Audio Data Analysis Using Deep Learning with Python ([kdnuggets.com/...](https://www.kdnuggets.com/2020/02/audio-data-analysis-deep-learning-python-part-1.html))
 
 # Notes
 1. Make some proofs of concept
