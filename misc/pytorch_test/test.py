@@ -85,9 +85,7 @@ class Net(nn.Module):
         x = self.fc2(x)
         return F.log_softmax(x)
 
-    def fit(
-        self, train_loader: torch.utils.data.DataLoader, optimizer, n_epochs
-    ):
+    def fit(self, train_loader: torch.utils.data.DataLoader, optimizer, n_epochs):
         self.train()
         for epoch in range(1, n_epochs + 1):
             for batch_idx, (data, target) in enumerate(train_loader):
